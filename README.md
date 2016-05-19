@@ -1,6 +1,6 @@
 # Permission PSR-7 middleware
 
-PSR-7 permission middleware. Sets the status code to 401 if needed according to user defined rules.
+PSR-7 permission middleware. Sets the status code of the request object to 401 if needed according to user defined rules.
 
 ## ALLOW mode
 The default allow rule set allows all connections through unless otherwise stated.
