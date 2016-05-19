@@ -1,0 +1,21 @@
+{
+  "name": "prezto/permission",
+  "type": "library",
+  "description": "PSR-7 permission middleware. Sets the status code to 401 if needed according to user defined rules.",
+  "keywords": ["permissions", "PSR-7", "ACL"],
+  "homepage": "https://github.com/Prezto/permission",
+  "license": "Apache",
+  "authors": [
+    {
+      "name": "Dany Henriquez",
+      "email": "dany.henriquez@outlook.comm"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.0",
+    "psr/http-message": ">=1.0"
+  },
+  "autoload": {
+    "psr-4": { "Prezto\\": "src/" }
+  }
+}
