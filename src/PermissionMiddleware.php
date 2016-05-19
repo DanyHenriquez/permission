@@ -6,7 +6,7 @@ use \Psr\Http\Message\RequestInterface as Request;
 use \Psr\Http\Message\ResponseInterface as Response;
 use \Prezto\Mode as Mode;
 
-class Middleware
+class PermissionMiddleware
 {
     protected $patterns;
     protected $mode = null;
